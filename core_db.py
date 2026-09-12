@@ -237,3 +237,5 @@ def xoa_sach_du_lieu():
 
     conn.commit()
     conn.close()
+# Tự động khởi tạo toàn bộ bảng khi server import database
+init_db()

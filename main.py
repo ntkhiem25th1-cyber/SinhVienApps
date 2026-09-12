@@ -1,9 +1,11 @@
-import os
 import flet as ft
+import os
+import core_db
 from views import tab_vi, tab_cong, tab_trothu, tab_caidat
 
 
 def main(page: ft.Page):
+    core_db.init_db()
     page.title = "Ví Sinh Viên"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 0
