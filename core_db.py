@@ -140,4 +140,4 @@ def xoa_sach_du_lieu(page=None):
         p.client_storage.remove("ghi_chu")
         p.client_storage.remove("cai_dat_luong")
     global _fallback_memory
-    _fallback_memory = {}git commit -am "Chuyen storage sang client_storage cho moi may doc lap"
+    _fallback_memory = {}
